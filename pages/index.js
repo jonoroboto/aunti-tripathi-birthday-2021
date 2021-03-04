@@ -52,7 +52,8 @@ export default function IndexPage() {
           mt={8}
           bgGradient="linear(to-l, #7928CA,#FF0080)"
           bgClip="text"
-          fontSize="6xl"
+          fontSize={["2xl", "4xl", "6xl"]}
+          textAlign="center"
           fontWeight="extrabold"
         >
           Happy Birthday Auntie Tripathi
